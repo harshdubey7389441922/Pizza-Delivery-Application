@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Delivery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Pizza Order</h1>
+
+    <div class="menu">
+      <div class="item">
+        <img src="https://i.ibb.co/YtYqJyb/pizza.png" alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>₹199</p>
+        <label>Quantity: 
+          <input type="number" min="0" value="0" onchange="updateTotal()" id="qty1" />
+        </label>
+      </div>
+    </div>
+
+    <h2>Total: ₹<span id="total">0</span></h2>
+    <button onclick="placeOrder()">Place Order</button>
+
+    <p id="confirmation"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

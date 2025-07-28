@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  background: #fdf2e9;
+  padding: 30px;
+}
+.container {
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.item {
+  margin: 20px;
+}
+.item img {
+  width: 150px;
+  height: 150px;
+}
+button {
+  padding: 10px 20px;
+  background: #ff4d00;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#confirmation {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green;
+}
